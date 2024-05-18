@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Specificity.css">
+    <title>Specificity</title>
+    <style>
+        .Book{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div style="color: blue !important;" >
+        <ul style="color: brown;">
+            <li class="Book">Science</li>
+            <li>Math</li>
+            <li>Physic</li>
+            <li>Biology</li>
+            <li style="background-color: chartreuse;">Chemistery</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
