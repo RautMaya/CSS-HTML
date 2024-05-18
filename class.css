@@ -1,0 +1,20 @@
+a:hover{
+    color: aqua;
+    text-decoration: dashed;
+}
+p::first-letter{
+    color: black;
+    text-shadow: 0cap;
+}
+*{
+    background-color: aqua;
+}
+#section{
+    background-color: blueviolet;
+}
+.class{
+    background-color: aliceblue;
+}
+p::first-line{
+    background-color: brown;
+}
